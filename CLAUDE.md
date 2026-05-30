@@ -13,7 +13,7 @@ git push origin main
 
 # 2. 登录服务器更新
 ssh ubuntu@122.51.188.133
-cd /opt/hermes && git pull
+cd /opt/hermes && git fetch origin main && git reset --hard FETCH_HEAD
 
 # 3a. 只改了 Python 文件 / skills / config → 直接重启
 sudo systemctl restart hermes
