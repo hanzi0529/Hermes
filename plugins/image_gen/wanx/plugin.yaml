@@ -1,0 +1,4 @@
+name: wanx
+version: 0.1.0
+description: "DashScope Wanx image generation (wanx2.1-t2i-turbo). Requires DASHSCOPE_API_KEY."
+kind: backend

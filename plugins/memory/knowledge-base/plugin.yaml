@@ -1,0 +1,6 @@
+name: knowledge-base
+version: 0.1.0
+description: "Personal knowledge base — SQLite + DashScope multimodal embeddings (tongyi-embedding-vision-plus). Stores and semantically retrieves fragmented knowledge points across sessions."
+hooks:
+  - on_session_end
+  - on_memory_write
